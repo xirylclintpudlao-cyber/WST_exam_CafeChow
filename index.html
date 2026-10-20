@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Chow</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- start navigation -->
+  <section>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/Chow_logo.png" alt="Cafe Chow Logo" width="80" height="80">
+        </a>
+        <a class="navbar-brand" href="index.html">Cafe Chow</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- end navigation -->
+
+  <!-- start banner -->
+  <section>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/coffee1.jpg" class="d-block w-100" alt="Coffee banner 1">
+        </div>
+        <div class="carousel-item">
+          <img src="images/coffee2.jpg" class="d-block w-100" alt="Coffee banner 2">
+        </div>
+        <div class="carousel-item">
+          <img src="images/latte.jpg" class="d-block w-100" alt="Latte banner">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- end banner -->
+
+  <!-- start product -->
+  <section class="products d-flex flex-wrap gap-4 justify-content-center p-4">
+    <!-- Product 1 -->
+    <div class="card" style="width: 18rem;">
+      <img src="images/Chow_logo.png" class="card-img-top p-3" alt="Cafe Chow Signature Blend">
+      <div class="card-body">
+        <h5 class="card-title">Signature Blend Beans</h5>
+        <p class="card-text">Our house-roasted, medium-dark whole coffee beans with rich chocolate and caramel notes.</p>
+        <h6 class="text-primary fw-bold mb-3">₱450.00</h6>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="card" style="width: 18rem;">
+      <img src="images/classic-cappuccino.jpg" class="card-img-top" alt="Classic Cappuccino">
+      <div class="card-body">
+        <h5 class="card-title">Classic Cappuccino</h5>
+        <p class="card-text">Equal parts espresso, steamed milk, and velvety microfoam topped with cocoa dust.</p>
+        <h6 class="text-primary fw-bold mb-3">₱140.00</h6>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="card" style="width: 18rem;">
+      <img src="images/close-up-hand-holding-coffee-cup.jpg" class="card-img-top" alt="Caramel Macchiato">
+      <div class="card-body">
+        <h5 class="card-title">Caramel Macchiato</h5>
+        <p class="card-text">Freshly steamed milk with vanilla-flavored syrup marked with espresso and caramel drizzle.</p>
+        <h6 class="text-primary fw-bold mb-3">₱160.00</h6>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="card" style="width: 18rem;">
+      <img src="images/coffee2.jpg" class="card-img-top" alt="Cold Brew Coffee">
+      <div class="card-body">
+        <h5 class="card-title">Iced Cold Brew</h5>
+        <p class="card-text">Steeped for 24 hours in cold water for a smooth, low-acidity, refreshing coffee experience.</p>
+        <h6 class="text-primary fw-bold mb-3">₱150.00</h6>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="card" style="width: 18rem;">
+      <img src="images/cup-drink-near-grains-table.jpg" class="card-img-top" alt="Espresso Shot">
+      <div class="card-body">
+        <h5 class="card-title">Double Espresso</h5>
+        <p class="card-text">A bold, concentrated shot of our finest artisan roasted espresso beans.</p>
+        <h6 class="text-primary fw-bold mb-3">₱100.00</h6>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="card" style="width: 18rem;">
+      <img src="images/coffee1.jpg" class="card-img-top" alt="Cafe Mocha">
+      <div class="card-body">
+        <h5 class="card-title">Caffè Mocha</h5>
+        <p class="card-text">A rich combination of espresso, bittersweet chocolate syrup, and steamed milk.</p>
+        <h6 class="text-primary fw-bold mb-3">₱170.00</h6>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="card" style="width: 18rem;">
+      <img src="images/latte.jpg" class="card-img-top" alt="Vanilla Latte">
+      <div class="card-body">
+        <h5 class="card-title">Vanilla Latte</h5>
+        <p class="card-text">A smooth blend of espresso and steamed milk infused with sweet aromatic vanilla syrup.</p>
+        <h6 class="text-primary fw-bold mb-3">₱155.00</h6>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+
+    <!-- Product 8 -->
+    <div class="card" style="width: 18rem;">
+      <img src="images/coffee-machine-filling-two-cups-time.jpg" class="card-img-top" alt="Americano">
+      <div class="card-body">
+        <h5 class="card-title">Caffè Americano</h5>
+        <p class="card-text">Espresso shots topped with hot water for a light layer of crema and deep flavor profile.</p>
+        <h6 class="text-primary fw-bold mb-3">₱120.00</h6>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+
+    <!-- Product 9 -->
+    <div class="card" style="width: 18rem;">
+      <img src="images/hero.jpg" class="card-img-top" alt="Matcha Green Tea Latte">
+      <div class="card-body">
+        <h5 class="card-title">Matcha Green Tea Latte</h5>
+        <p class="card-text">Premium ceremonial-grade green tea matcha whisked with gently steamed milk.</p>
+        <h6 class="text-primary fw-bold mb-3">₱165.00</h6>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+
+    <!-- Product 10 -->
+    <div class="card" style="width: 18rem;">
+      <img src="images/Chow_banner.png" class="card-img-top p-3" alt="Cafe Chow Gift Pack">
+      <div class="card-body">
+        <h5 class="card-title">Chow Gift Pack</h5>
+        <p class="card-text">Includes a ceramic mug, a bag of signature beans, and a branded tote bag.</p>
+        <h6 class="text-primary fw-bold mb-3">₱799.00</h6>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+  </section>
+  <!-- end product -->
+
+  <!-- start testimonials -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">What Our Customers Say</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center p-4">
+              <div class="mb-3 text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="card-text">"Cafe Chow has the best Spanish Latte in town! The cozy atmosphere makes it my go-to spot for working and catching up with friends."</p>
+              <h6 class="fw-bold mb-0 mt-3">— Maria Santos</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center p-4">
+              <div class="mb-3 text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="card-text">"The Signature Blend beans are incredible. I brew them every morning at home, and the aroma is unbeatable!"</p>
+              <h6 class="fw-bold mb-0 mt-3">— Juan Dela Cruz</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center p-4">
+              <div class="mb-3 text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p class="card-text">"Friendly baristas, fresh pastries, and top-tier cold brew. Cafe Chow never disappoints!"</p>
+              <h6 class="fw-bold mb-0 mt-3">— Angela Reyes</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end testimonials -->
+
+  <!-- start gallery -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Gallery</h2>
+      <div class="row g-3">
+        <div class="col-6 col-md-3">
+          <img src="images/classic-cappuccino.jpg" class="img-fluid rounded shadow-sm w-100 h-100 object-fit-cover" alt="Cappuccino close-up">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="images/close-up-hand-holding-coffee-cup.jpg" class="img-fluid rounded shadow-sm w-100 h-100 object-fit-cover" alt="Holding coffee cup">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="images/cup-drink-near-grains-table.jpg" class="img-fluid rounded shadow-sm w-100 h-100 object-fit-cover" alt="Coffee cup with beans">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="images/coffee-machine-filling-two-cups-time.jpg" class="img-fluid rounded shadow-sm w-100 h-100 object-fit-cover" alt="Espresso machine brewing">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end gallery -->
+
+  <!-- start footer -->
+  <footer class="bg-primary text-white pt-5 pb-3">
+    <div class="container">
+      <div class="row g-4">
+        <!-- About Column -->
+        <div class="col-md-4">
+          <div class="d-flex align-items-center mb-3">
+            <img src="images/Chow_logo.png" alt="Cafe Chow Logo" width="50" height="50" class="me-2">
+            <h5 class="mb-0 fw-bold">Cafe Chow</h5>
+          </div>
+          <p class="small">Crafting exceptional coffee moments every single day. Freshly roasted beans, warm hospitality, and a cozy space for coffee lovers.</p>
+        </div>
+
+        <!-- Quick Links Column -->
+        <div class="col-md-4">
+          <h5 class="fw-bold mb-3">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
+            <li><a href="about.html" class="text-white-50 text-decoration-none">About Us</a></li>
+            <li><a href="product.html" class="text-white-50 text-decoration-none">Products</a></li>
+            <li><a href="contact.html" class="text-white-50 text-decoration-none">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Hours Column -->
+        <div class="col-md-4">
+          <h5 class="fw-bold mb-3">Visit Us</h5>
+          <p class="small mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Omfeg, Poblacion Bontoc</p>
+          <p class="small mb-1"><i class="bi bi-telephone-fill me-2"></i>(02) 8123-4567</p>
+          <p class="small mb-3"><i class="bi bi-envelope-fill me-2"></i>hello@cafechow.com</p>
+          <p class="small mb-0"><strong>Hours:</strong> Mon - Sun: 7:00 AM - 10:00 PM</p>
+        </div>
+      </div>
+
+      <hr class="my-4 border-light">
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+        <p class="small mb-0">&copy; 2026 Cafe Chow. All rights reserved.</p>
+        <div class="fs-5">
+          <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.carousel-item img{
+    height: 700px;
+    object-fit: cover;
+}
+.products {
+    display: grid;
+    gap: 20px;
+    margin: 10px;
+    grid-template-columns: repeat(5, 1fr);
+}
